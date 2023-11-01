@@ -1,0 +1,25 @@
+#README for assignment 6 course HPY414
+
+
+Code in C programming language that utilizes a low level Packet Capture tool.
+
+Folder contains:
+
+	-assign_6.c
+	"Contains the C code used for utilizing the Tool (aka, my 1st time meeting: pcap and netinet ).
+  The Tool provides online and offline capture mode use <<$ ./assign -h>> to prompt a help message for Tool usage."
+
+	-Makefile
+  "$ make run <--Compile assign_6.c file."
+
+  -test_pcap_5mins.pcap
+  "used as example for the offline capture mode."
+    as such: $ ./assign -r test_pcap_5mins.pcap
+
+Answer to question possed in assigment: It's possible to tell if an incoming TCP packet is a retransmission
+	because TCP protocol uses ACK to tell the transmitter if a retransmission is needed, but with UDP protocol
+	retransimissions do not occur.
+
+There are comments on the code for further code explanation where needed.
+- Chalimas Theodoros - 2014030157
+	<thodorischa@gmail.com>
